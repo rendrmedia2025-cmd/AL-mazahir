@@ -3,13 +3,13 @@
   "framework": "nextjs",
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "installCommand": "npm install --legacy-peer-deps",
+  "installCommand": "npm install",
   "functions": {
     "src/app/api/**/*.ts": {
       "maxDuration": 10
     }
   },
   "env": {
-    "NODE_OPTIONS": "--max-old-space-size=3008"
+    "NODE_OPTIONS": "--max-old-space-size=2048"
   }
 }
