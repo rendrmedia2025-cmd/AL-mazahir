@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Test - Al Mazahir</title>
+</head>
+<body>
+    <h1>Debug Test</h1>
+    <p>Testing if the website is accessible...</p>
+    <script>
+        // Test if localhost:3000 is accessible
+        fetch('http://localhost:3000')
+            .then(response => {
+                console.log('Website is accessible:', response.status);
+                document.body.innerHTML += '<p>✅ Website is accessible (Status: ' + response.status + ')</p>';
+                
+                // Test if products section exists
+                return fetch('http://localhost:3000');
+            })
+            .then(response => response.text())
+            .then(html => {
+                if (html.includes('Our Product Categories') || html.includes('products')) {
+                    document.body.innerHTML += '<p>✅ Products section found in HTML</p>';
+                } else {
+                    document.body.innerHTML += '<p>❌ Products section NOT found in HTML</p>';
+                }
+                
+                if (html.includes('Industries We Serve') || html.includes('industries')) {
+                    document.body.innerHTML += '<p>✅ Industries section found in HTML</p>';
+                } else {
+                    document.body.innerHTML += '<p>❌ Industries section NOT found in HTML</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.body.innerHTML += '<p>❌ Error accessing website: ' + error.message + '</p>';
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "buildTime": "2025-12-25T12:36:31.846Z",
+  "nodeVersion": "v25.2.0",
+  "platform": "win32",
+  "buildSuccess": true,
+  "environmentVariables": {
+    "emailJSConfigured": false,
+    "requiredVars": [
+      "NEXT_PUBLIC_EMAILJS_SERVICE_ID",
+      "NEXT_PUBLIC_EMAILJS_TEMPLATE_ID",
+      "NEXT_PUBLIC_EMAILJS_PUBLIC_KEY",
+      "NEXT_PUBLIC_EMAILJS_AUTO_REPLY_TEMPLATE_ID"
+    ]
+  },
+  "deploymentPlatforms": {
+    "vercel": {
+      "recommended": true,
+      "buildCommand": "npm run build",
+      "outputDirectory": ".next",
+      "installCommand": "npm install",
+      "framework": "nextjs"
+    },
+    "netlify": {
+      "buildCommand": "npm run build",
+      "publishDirectory": ".next",
+      "installCommand": "npm install"
+    },
+    "awsAmplify": {
+      "buildCommand": "npm run build",
+      "outputDirectory": ".next",
+      "nodeVersion": "18"
+    }
+  }
+}

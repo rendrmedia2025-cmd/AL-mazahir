@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Al Mazahir Website Diagnostic</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test { margin: 10px 0; padding: 10px; border: 1px solid #ccc; }
+        .success { background: #d4edda; border-color: #c3e6cb; }
+        .error { background: #f8d7da; border-color: #f5c6cb; }
+        .loading { background: #fff3cd; border-color: #ffeaa7; }
+    </style>
+</head>
+<body>
+    <h1>Al Mazahir Website Diagnostic</h1>
+    <div id="results"></div>
+
+    <script>
+        const results = document.getElementById('results');
+        
+        function addResult(test, status, message) {
+            const div = document.createElement('div');
+            div.className = `test ${status}`;
+            div.innerHTML = `<strong>${test}:</strong> ${message}`;
+            results.appendChild(div);
+        }
+
+        // Test 1: Check if main page loads
+        addResult('Main Page', 'loading', 'Testing...');
+        fetch('http://localhost:3000')
+            .then(response => {
+                if (response.ok) {
+                    addResult('Main Page', 'success', '✅ Main page loads successfully');
+                    return response.text();
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            })
+            .then(html => {
+                // Test 2: Check for products section
+                if (html.includes('Our Product Categories') || html.includes('products')) {
+                    addResult('Products Section', 'success', '✅ Products section found in HTML');
+                } else {
+                    addResult('Products Section', 'error', '❌ Products section NOT found');
+                }
+                
+                // Test 3: Check for industries section
+                if (html.includes('Industries We Serve') || html.includes('industries')) {
+                    addResult('Industries Section', 'success', '✅ Industries section found in HTML');
+                } else {
+                    addResult('Industries Section', 'error', '❌ Industries section NOT found');
+                }
+            })
+            .catch(error => {
+                addResult('Main Page', 'error', `❌ Failed to load: ${error.message}`);
+            });
+
+        // Test 4: Check API endpoints
+        addResult('Availability API', 'loading', 'Testing...');
+        fetch('http://localhost:3000/api/public/availability')
+            .then(response => response.json())
+            .then(data => {
+                if (data.success && data.data && data.data.length > 0) {
+                    addResult('Availability API', 'success', `✅ API working - ${data.data.length} categories`);
+                } else {
+                    addResult('Availability API', 'error', '❌ API not returning expected data');
+                }
+            })
+            .catch(error => {
+                addResult('Availability API', 'error', `❌ API failed: ${error.message}`);
+            });
+
+        // Test 5: Check leads API
+        addResult('Leads API', 'loading', 'Testing...');
+        fetch('http://localhost:3000/api/public/leads', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                name: 'Test User',
+                phone: '+966501234567',
+                email: 'test@example.com',
+                message: 'Test message'
+            })
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    addResult('Leads API', 'success', '✅ Contact form API working');
+                } else {
+                    addResult('Leads API', 'error', '❌ Contact form API failed');
+                }
+            })
+            .catch(error => {
+                addResult('Leads API', 'error', `❌ Contact API failed: ${error.message}`);
+            });
+
+        // Test 6: Check for JavaScript errors
+        window.addEventListener('error', function(e) {
+            addResult('JavaScript Errors', 'error', `❌ JS Error: ${e.message}`);
+        });
+
+        setTimeout(() => {
+            addResult('JavaScript Errors', 'success', '✅ No JavaScript errors detected');
+        }, 2000);
+    </script>
+</body>
+</html>

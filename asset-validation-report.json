@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-12-27T09:29:18.824Z",
+  "summary": {
+    "imagesValidated": 44,
+    "errorsFound": 0,
+    "warnings": 0,
+    "brokenReferences": 0
+  },
+  "errors": [],
+  "warnings": [],
+  "brokenReferences": [],
+  "status": "PASSED"
+}

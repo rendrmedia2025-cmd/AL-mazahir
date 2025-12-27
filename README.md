@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Al Mazahir Trading Est. Corporate Website
+
+A modern, responsive corporate website built with Next.js, TypeScript, and Tailwind CSS for Al Mazahir Trading Est., showcasing industrial trading and safety equipment capabilities.
+
+## Features
+
+- **Modern Tech Stack**: Next.js 16 with React 19, TypeScript, and Tailwind CSS
+- **Responsive Design**: Mobile-first approach with optimized layouts for all devices
+- **Performance Optimized**: Server-side rendering, image optimization, and fast loading
+- **Property-Based Testing**: Comprehensive testing with fast-check for correctness properties
+- **SEO Optimized**: Meta tags, schema markup, and search engine optimization
+- **Lead Generation**: Contact forms and WhatsApp integration for business inquiries
+
+## Tech Stack
+
+- **Framework**: Next.js 16 with React 19
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4
+- **Testing**: Jest, React Testing Library, fast-check
+- **Code Quality**: ESLint, Prettier
+- **Performance**: React Compiler enabled
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npm test` - Run tests
+- `npm run test:watch` - Run tests in watch mode
+- `npm run format` - Format code with Prettier
+
+## Project Structure
+
+```
+src/
+├── app/                 # Next.js app directory
+├── components/
+│   ├── sections/       # Page sections (Hero, About, etc.)
+│   ├── ui/            # Reusable UI components
+│   └── layout/        # Layout components
+└── lib/               # Utility functions and services
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Testing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project uses a dual testing approach:
+- **Unit Tests**: Jest and React Testing Library for component testing
+- **Property-Based Tests**: fast-check for correctness properties validation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Run tests with:
+```bash
+npm test
+```
 
-## Learn More
+## Requirements
 
-To learn more about Next.js, take a look at the following resources:
+This website fulfills the following business requirements:
+- Professional B2B corporate presence
+- Product catalog showcase
+- Lead generation and inquiry system
+- Mobile-responsive design
+- SEO optimization
+- Performance optimization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Private - Al Mazahir Trading Est.

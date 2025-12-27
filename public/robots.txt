@@ -1,0 +1,27 @@
+# Robots.txt for Al Mazahir Trading Est.
+# https://almazahirtrading.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://almazahirtrading.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow admin and private areas (if any in future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow important directories
+Allow: /images/
+Allow: /icons/
+Allow: /favicon.ico
+
+# Block common bot traps
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/

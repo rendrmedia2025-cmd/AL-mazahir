@@ -1,0 +1,303 @@
+{
+  "timestamp": "2025-12-27T09:26:01.112Z",
+  "summary": {
+    "totalProcessed": 53,
+    "movedAcrossCategories": 0,
+    "duplicatesRemoved": 0,
+    "imagesDiscarded": 0,
+    "mockupsRemoved": 0
+  },
+  "renamedFiles": [
+    {
+      "original": "public\\images\\categories\\0.jpg",
+      "new": "public\\assets\\safety-equipment\\safety-equipment-safety-helmet-almazahir.webp",
+      "category": "safety-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\1.jpg",
+      "new": "public\\assets\\fire-safety\\fire-safety-smoke-detector-almazahir.webp",
+      "category": "fire-safety"
+    },
+    {
+      "original": "public\\images\\categories\\1.png",
+      "new": "public\\assets\\fire-safety\\fire-safety-emergency-light-almazahir.webp",
+      "category": "fire-safety"
+    },
+    {
+      "original": "public\\images\\categories\\2.jpg",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-compressor-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\categories\\2.png",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-power-drill-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\categories\\3.jpg",
+      "new": "public\\assets\\construction-materials\\construction-materials-steel-rebar-almazahir.webp",
+      "category": "construction-materials"
+    },
+    {
+      "original": "public\\images\\categories\\3.png",
+      "new": "public\\assets\\construction-materials\\construction-materials-concrete-blocks-almazahir.webp",
+      "category": "construction-materials"
+    },
+    {
+      "original": "public\\images\\categories\\4.jpg",
+      "new": "public\\assets\\industrial-supplies\\industrial-supplies-chemicals-almazahir.webp",
+      "category": "industrial-supplies"
+    },
+    {
+      "original": "public\\images\\categories\\4.png",
+      "new": "public\\assets\\industrial-supplies\\industrial-supplies-industrial-adhesive-almazahir.webp",
+      "category": "industrial-supplies"
+    },
+    {
+      "original": "public\\images\\categories\\5.jpg",
+      "new": "public\\assets\\rental-equipment\\rental-equipment-forklift-almazahir.webp",
+      "category": "rental-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\5.png",
+      "new": "public\\assets\\rental-equipment\\rental-equipment-scaffolding-almazahir.webp",
+      "category": "rental-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\6.jpg",
+      "new": "public\\assets\\safety-equipment\\safety-equipment-work-gloves-almazahir.webp",
+      "category": "safety-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\6.png",
+      "new": "public\\assets\\safety-equipment\\safety-equipment-safety-glasses-almazahir.webp",
+      "category": "safety-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\7.jpg",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-angle-grinder-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\categories\\7.png",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-welding-machine-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\categories\\8.jpg",
+      "new": "public\\assets\\fire-safety\\fire-safety-fire-blanket-almazahir.webp",
+      "category": "fire-safety"
+    },
+    {
+      "original": "public\\images\\categories\\8.png",
+      "new": "public\\assets\\fire-safety\\fire-safety-fire-extinguisher-almazahir.webp",
+      "category": "fire-safety"
+    },
+    {
+      "original": "public\\images\\categories\\9.jpg",
+      "new": "public\\assets\\construction-materials\\construction-materials-steel-rebar-1-almazahir.webp",
+      "category": "construction-materials"
+    },
+    {
+      "original": "public\\images\\categories\\9.png",
+      "new": "public\\assets\\construction-materials\\construction-materials-concrete-blocks-1-almazahir.webp",
+      "category": "construction-materials"
+    },
+    {
+      "original": "public\\images\\categories\\10.jpg",
+      "new": "public\\assets\\safety-equipment\\safety-equipment-safety-boots-almazahir.webp",
+      "category": "safety-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\10.png",
+      "new": "public\\assets\\safety-equipment\\safety-equipment-safety-helmet-1-almazahir.webp",
+      "category": "safety-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\11.jpg",
+      "new": "public\\assets\\industrial-supplies\\industrial-supplies-lubricants-almazahir.webp",
+      "category": "industrial-supplies"
+    },
+    {
+      "original": "public\\images\\categories\\11.png",
+      "new": "public\\assets\\industrial-supplies\\industrial-supplies-fasteners-almazahir.webp",
+      "category": "industrial-supplies"
+    },
+    {
+      "original": "public\\images\\categories\\12.png",
+      "new": "public\\assets\\fire-safety\\fire-safety-fire-blanket-1-almazahir.webp",
+      "category": "fire-safety"
+    },
+    {
+      "original": "public\\images\\categories\\13.png",
+      "new": "public\\assets\\construction-materials\\construction-materials-cement-bags-almazahir.webp",
+      "category": "construction-materials"
+    },
+    {
+      "original": "public\\images\\categories\\14.png",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-angle-grinder-1-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\categories\\15.png",
+      "new": "public\\assets\\rental-equipment\\rental-equipment-scaffolding-1-almazahir.webp",
+      "category": "rental-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\16.png",
+      "new": "public\\assets\\safety-equipment\\safety-equipment-safety-glasses-1-almazahir.webp",
+      "category": "safety-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\17.png",
+      "new": "public\\assets\\industrial-supplies\\industrial-supplies-industrial-adhesive-1-almazahir.webp",
+      "category": "industrial-supplies"
+    },
+    {
+      "original": "public\\images\\categories\\18.png",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-angle-grinder-1-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\categories\\19.png",
+      "new": "public\\assets\\safety-equipment\\safety-equipment-safety-helmet-1-almazahir.webp",
+      "category": "safety-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\fire-safety.jpg",
+      "new": "public\\assets\\fire-safety\\fire-safety-fire-safety-almazahir.webp",
+      "category": "fire-safety"
+    },
+    {
+      "original": "public\\images\\categories\\rental-logistics.jpg",
+      "new": "public\\assets\\rental-equipment\\rental-equipment-rental-logistics-almazahir.webp",
+      "category": "rental-equipment"
+    },
+    {
+      "original": "public\\images\\categories\\safety-equipment.jpg",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-safety-equipment-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\categories\\tools-machinery.jpg",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-tools-machinery-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\products\\angle-grinder.jpg",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-angle-grinder-1-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\products\\cement.jpg",
+      "new": "public\\assets\\construction-materials\\construction-materials-portland-cement-almazahir.webp",
+      "category": "construction-materials"
+    },
+    {
+      "original": "public\\images\\products\\concrete-blocks.jpg",
+      "new": "public\\assets\\construction-materials\\construction-materials-concrete-blocks-1-almazahir.webp",
+      "category": "construction-materials"
+    },
+    {
+      "original": "public\\images\\products\\crane.jpg",
+      "new": "public\\assets\\rental-equipment\\rental-equipment-mobile-crane-almazahir.webp",
+      "category": "rental-equipment"
+    },
+    {
+      "original": "public\\images\\products\\emergency-light.jpg",
+      "new": "public\\assets\\fire-safety\\fire-safety-emergency-light-1-almazahir.webp",
+      "category": "fire-safety"
+    },
+    {
+      "original": "public\\images\\products\\fasteners.jpg",
+      "new": "public\\assets\\industrial-supplies\\industrial-supplies-fasteners-1-almazahir.webp",
+      "category": "industrial-supplies"
+    },
+    {
+      "original": "public\\images\\products\\fire-extinguisher.jpg",
+      "new": "public\\assets\\fire-safety\\fire-safety-fire-extinguisher-1-almazahir.webp",
+      "category": "fire-safety"
+    },
+    {
+      "original": "public\\images\\products\\forklift.jpg",
+      "new": "public\\assets\\rental-equipment\\rental-equipment-forklift-rental-almazahir.webp",
+      "category": "rental-equipment"
+    },
+    {
+      "original": "public\\images\\products\\industrial-adhesive.jpg",
+      "new": "public\\assets\\industrial-supplies\\industrial-supplies-industrial-adhesive-1-almazahir.webp",
+      "category": "industrial-supplies"
+    },
+    {
+      "original": "public\\images\\products\\lubricant.jpg",
+      "new": "public\\assets\\industrial-supplies\\industrial-supplies-lubricant-almazahir.webp",
+      "category": "industrial-supplies"
+    },
+    {
+      "original": "public\\images\\products\\power-drill.jpg",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-power-drill-1-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\products\\safety-glasses.jpg",
+      "new": "public\\assets\\safety-equipment\\safety-equipment-safety-glasses-1-almazahir.webp",
+      "category": "safety-equipment"
+    },
+    {
+      "original": "public\\images\\products\\safety-helmet.jpg",
+      "new": "public\\assets\\safety-equipment\\safety-equipment-safety-helmet-1-almazahir.webp",
+      "category": "safety-equipment"
+    },
+    {
+      "original": "public\\images\\products\\scaffolding.jpg",
+      "new": "public\\assets\\rental-equipment\\rental-equipment-scaffolding-1-almazahir.webp",
+      "category": "rental-equipment"
+    },
+    {
+      "original": "public\\images\\products\\smoke-detector.jpg",
+      "new": "public\\assets\\fire-safety\\fire-safety-smoke-detector-1-almazahir.webp",
+      "category": "fire-safety"
+    },
+    {
+      "original": "public\\images\\products\\steel-rebar.jpg",
+      "new": "public\\assets\\construction-materials\\construction-materials-steel-rebar-1-almazahir.webp",
+      "category": "construction-materials"
+    },
+    {
+      "original": "public\\images\\products\\welding-machine.jpg",
+      "new": "public\\assets\\tools-machinery\\tools-machinery-welding-machine-1-almazahir.webp",
+      "category": "tools-machinery"
+    },
+    {
+      "original": "public\\images\\products\\work-gloves.jpg",
+      "new": "public\\assets\\safety-equipment\\safety-equipment-work-gloves-1-almazahir.webp",
+      "category": "safety-equipment"
+    }
+  ],
+  "discarded": [
+    {
+      "original": "public\\images\\categories\\construction-materials.jpg",
+      "reason": "Could not classify into any category"
+    },
+    {
+      "original": "public\\images\\categories\\industrial-supplies.jpg",
+      "reason": "Could not classify into any category"
+    },
+    {
+      "original": "public\\images\\hero-bg.jpg",
+      "reason": "Could not classify into any category"
+    },
+    {
+      "original": "public\\images\\logo.png",
+      "reason": "Could not classify into any category"
+    }
+  ],
+  "categoryDistribution": {
+    "safety-equipment": 10,
+    "fire-safety": 9,
+    "tools-machinery": 11,
+    "construction-materials": 8,
+    "industrial-supplies": 8,
+    "rental-equipment": 7
+  }
+}
