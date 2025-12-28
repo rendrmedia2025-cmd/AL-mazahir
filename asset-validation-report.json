@@ -1,13 +1,17 @@
 {
-  "timestamp": "2025-12-27T09:29:18.824Z",
+  "timestamp": "2025-12-28T06:46:20.763Z",
   "summary": {
     "imagesValidated": 44,
-    "errorsFound": 0,
+    "errorsFound": 3,
     "warnings": 0,
     "brokenReferences": 0
   },
-  "errors": [],
+  "errors": [
+    "Image metadata file not found",
+    "OptimizedImage component not found",
+    "Products data file not found"
+  ],
   "warnings": [],
   "brokenReferences": [],
-  "status": "PASSED"
+  "status": "FAILED"
 }
